@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("git pull"){
           steps{
-              git'https://https://github.com/gokulakrishnangs/new-code-sample.git'
+              git url: "https://https://github.com/gokulakrishnangs/new-code-sample.git"
           }  
         }
     }
